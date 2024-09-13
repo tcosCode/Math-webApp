@@ -196,6 +196,18 @@ section {
   display: flex;
 }
 
+@media (max-width: 768px) {
+  .topic-container {
+    flex-direction: column;
+    padding: 2rem;
+    gap: 2rem;
+  }
+  .topics h2 {
+    font-size: 1.6rem;
+    margin-bottom: 0.3rem;
+  }
+}
+
 .grade {
   margin: 1rem;
   padding: 1rem;
@@ -239,14 +251,9 @@ section {
 }
 
 @media (max-width: 768px) {
-  .topic-container {
-    flex-direction: column;
-    padding: 2rem;
-    gap: 2rem;
-  }
-  .topics h2 {
-    font-size: 2rem;
-    margin-bottom: 2rem;
+  .grade {
+    width: 90%;
+    gap: 0rem;
   }
 }
 
